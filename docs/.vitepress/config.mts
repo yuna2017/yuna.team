@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/yuna.team/",
+  base: process.env.IS_GITHUB_PAGES ? '/yuna.team/' : '/',
   title: "燕山大学 TUNA 网络信息协会",
   description: "Yet Another VitePress Site",
   themeConfig: {
