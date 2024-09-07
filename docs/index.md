@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "燕山大学 TUNA 网络信息协会"
-  text: "Yet Another VitePress Site"
-  tagline: My great project tagline
+  name: "燕山大学大学生网络信息协会"
+  text: "The Official Site of the YUNA"
+  tagline: "一个充满创造力的组织，一个充满爱的家庭"
   actions:
     - theme: brand
       text: Markdown Examples
