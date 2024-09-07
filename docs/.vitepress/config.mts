@@ -2,13 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "燕山大学 TUNA 网络信息协会",
-  description: "Yet Another VitePress Site",
+  title: "燕山大学大学生网络信息协会",
+  description: "The Official Site of the YUNA.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '关于我们', link: '/markdown-examples' },
+      { text: '最新动态', link: '/markdown-examples' },
+      { text: '生存指南', link: '/markdown-examples' },
+      { text: '加入我们', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -22,7 +25,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/yuna2017' }
     ]
   }
 })
