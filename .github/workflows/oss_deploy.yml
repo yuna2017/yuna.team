@@ -24,7 +24,6 @@ jobs:
           OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
           OSS_BUCKET: ${{ secrets.OSS_BUCKET }}
         run: |
-          echo $OSS_BUCKET
-          echo $OSS_REGION
-          npm install -g aliyun-cli
-          aliyun oss cp -r docs/.vitepress/dist oss://$OSS_BUCKET/ --region $OSS_REGION
+          wget -Oaliyun.tgz https://github.com/aliyun/aliyun-cli/releases/download/v3.0.222/aliyun-cli-linux-3.0.222-amd64.tgz
+          tar zxf aliyun.tgz
+          ./aliyun oss cp -r docs/.vitepress/dist oss://$OSS_BUCKET/ --region $OSS_REGION
