@@ -9,7 +9,7 @@ hero:
   text: "The Official Site of the YUNA."
   tagline: 一个充满创造力的组织，一个充满爱的家庭
   image:
-    src: logo.svg
+    src: /logo.svg
     alt: VitePress
   actions:
     - theme: brand
