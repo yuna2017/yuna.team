@@ -1,0 +1,28 @@
+name: Deploy VitePress to Aliyun OSS
+on:
+  push:
+    branches:
+      - main  # 或者你使用的其他分支
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Install dependencies
+        run: npm install
+      - name: Build VitePress site
+        run: npm run docs:build
+      - name: Deploy to Aliyun OSS
+        env:
+          OSS_REGION: ${{ secrets.OSS_REGION }}
+          OSS_ACCESS_KEY_ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+          OSS_BUCKET: ${{ secrets.OSS_BUCKET }}
+        run: |
+          npm install -g aliyun-cli
+          aliyun oss cp -r docs/.vitepress/dist oss://$OSS_BUCKET/ --region $OSS_REGION
