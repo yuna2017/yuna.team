@@ -1,0 +1,28 @@
+name: Deploy VitePress to Aliyun OSS
+on:
+  push:
+    branches:
+      - main  # 或者你使用的其他分支
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Install dependencies
+        run: npm install
+      - name: Build VitePress site
+        run: npm run docs:build
+      - name: upload files to OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+            accessKeyId: ${{ secrets.OSS_ACCESS_KEY_ID }}
+            accessKeySecret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+            bucket: ${{ secrets.OSS_BUCKET }}
+            # use your own endpoint
+            endpoint: ${{ secrets.OSS_ENDPOINT }}
+            folder: docs/.vitepress/dist
