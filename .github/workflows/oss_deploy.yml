@@ -17,12 +17,12 @@ jobs:
         run: npm install
       - name: Build VitePress site
         run: npm run docs:build
-      - name: Deploy to Aliyun OSS
-        env:
-          OSS_REGION: oss-cn-hongkong
-          OSS_ACCESS_KEY_ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
-          OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
-          OSS_BUCKET: ${{ secrets.OSS_BUCKET }}
-        run: |
-          npm install -g aliyun-cli
-          aliyun oss cp -r docs/.vitepress/dist oss://$OSS_BUCKET/ --region $OSS_REGION
+      - name: upload files to OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+            accessKeyId: ${{ secrets.OSS_ACCESS_KEY_ID }}
+            accessKeySecret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+            bucket: ${{ secrets.OSS_BUCKET }}
+            # use your own endpoint
+            endpoint: ${{ secrets.OSS_ENDPOINT }}
+            folder: docs/.vitepress/dist
