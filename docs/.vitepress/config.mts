@@ -29,5 +29,15 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/yuna2017' }
     ]
-  }
+  },
+  head: [
+    [
+      'script',
+      {
+        "data-cf-beacon": '{"token": "ba3256b1ea314159a890b140f590cbc1"}',
+        src: 'https://static.cloudflareinsights.com/beacon.min.js',
+        "defer": ''
+      }
+    ]
+  ]
 })
