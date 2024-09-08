@@ -1,0 +1,38 @@
+name: Markdown Lint and Format
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+  pull_request:
+    paths:
+      - '**/*.md'
+
+jobs:
+  lint-format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: |
+          npm install -g markdownlint-cli
+          npm install -g prettier
+
+      - name: Run markdownlint
+        run: markdownlint '**/*.md' --ignore node_modules
+
+      - name: Run Prettier
+        run: prettier --write '**/*.md'
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "formating: auto-format markdown docs"
+          file_pattern: "**/*.md"
