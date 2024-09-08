@@ -17,10 +17,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '关于我们',
         items: [
-          { text: 'Markdown Examples', link: '/about-us' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '关于我们', link: '/about-us' },
+          { text: '加入我们', link: '/join-us' }
         ]
       }
     ],
