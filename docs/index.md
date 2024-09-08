@@ -14,10 +14,10 @@ hero:
   actions:
     - theme: brand
       text: 了解更多
-      link: /markdown-examples
+      link: /about-us
     - theme: alt
       text: 加入我们
-      link: /api-examples
+      link: /join-us
 
 features:
   - title: 多元

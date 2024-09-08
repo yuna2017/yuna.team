@@ -10,16 +10,16 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '关于我们', link: '/about-us' },
-      { text: '最新动态', link: '/markdown-examples' },
-      { text: '生存指南', link: '/markdown-examples' },
-      { text: '加入我们', link: '/markdown-examples' }
+      { text: '最新动态', link: '/placeholder' },
+      { text: '生存指南', link: '/placeholder' },
+      { text: '加入我们', link: '/join-us' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Markdown Examples', link: '/about-us' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
