@@ -21,7 +21,7 @@ export default defineConfig({
       { text: '生存指南', link: '/placeholder' },
       { text: '加入我们', link: '/join-us/how-to.html' }
     ],
-
+    externalLinkIcon: true,
     sidebar: [
       {
         text: '关于我们',
