@@ -26,7 +26,7 @@ jobs:
           npm install -g prettier
 
       - name: Run markdownlint
-        run: markdownlint '**/*.md' --ignore node_modules --rules { "MD033": false, "MD041": false }
+        run: "markdownlint '**/*.md' --ignore node_modules --rules { \"MD033\": false, \"MD041\": false }"
 
       - name: Run Prettier
         run: prettier --write '**/*.md'
