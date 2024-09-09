@@ -11,6 +11,9 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+    logo: {
+      src: '/logo.svg'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: '关于我们', link: '/about-us/' },
