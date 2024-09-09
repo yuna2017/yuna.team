@@ -25,9 +25,22 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '协会概况', link: '/about-us/' },
-          { text: '加入我们', link: '/join-us' },
-          { text: '协会成员', link: '/about-us/members'}
+          { text: '协会成员', link: '/about-us/members'},
+          { text: '部门设置',
+            items: [
+              { text: "开发部", link: '/about-us/dept/dev.html'},
+              { text: "网络安全部", link: '/about-us/dept/cybersec.html'},
+              { text: "运维部", link: '/about-us/dept/maint.html'},
+              { text: "组宣部", link: '/about-us/dept/pr.html'},
+              { text: "秘书处", link: '/about-us/dept/office.html'},
+            ]
+          },
+          { text: '名人堂', link: '/about-us/hall-of-fame.html'}
         ]
+      },
+      {
+        text: '加入我们',
+        link: '/join-us'
       }
     ],
 
