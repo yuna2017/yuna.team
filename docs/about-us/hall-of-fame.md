@@ -9,6 +9,20 @@ import {
 } from 'vitepress/theme'
 
 const members = [
+    {
+    avatar: '/avatars/xiaobai.jpg',
+    name: '小白',
+    title: '第一届主席',
+    links: [
+      {
+        icon: {
+            svg: '<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 14 14"><path fill="currentColor" fill-rule="evenodd" d="M0 2.75a1.5 1.5 0 0 1 1.5-1.5h11a1.5 1.5 0 0 1 1.5 1.5v.342L7.383 7.504A.7.7 0 0 1 7 7.607a.7.7 0 0 1-.383-.103L0 3.092zm0 1.844v6.656a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5V4.594L8.073 8.546l-.005.004A1.97 1.97 0 0 1 7 8.857c-.375 0-.753-.102-1.068-.307l-.005-.004z" clip-rule="evenodd"/></svg>' // https://yesicon.app/streamline/mail-send-envelope-solid
+        },
+        link: 'mailto:baichenhan1998@qq.com'
+      }
+    ],
+    desc: '2020年PAC铜奖<br>2022年ACM-IPCC当届唯一金奖<br>2024年硕士毕业于中国科学院大学<br>现任清程极智大模型算子优化工程师'
+  },
   {
     avatar: 'https://www.github.com/reecho-tsai.png',
     name: 'reecho-tsai',
@@ -17,12 +31,12 @@ const members = [
       { icon: 'github', link: 'https://github.com/reecho-tsai' },
     //   { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
     ],
-    desc: '软件工程专业，现保送入上海交通大学攻读博士'
+    desc: '软件工程专业 <br> 2023年保送上海交通大学攻读博士'
   },
   {
     avatar: 'https://www.github.com/qfpqhyl.png',
     name: 'qfpqhyl',
-    title: '第六届网安部部长、第七届网安部副主席',
+    title: '第七届网安部主席',
     links: [
       { icon: 'github', link: 'https://github.com/qfpqhyl' },
       {
@@ -32,7 +46,7 @@ const members = [
         link: 'https://qfpqhyl.github.io/'
       }
     ],
-    desc: '光电子专业，获得保研资格，去向暂定'
+    desc: '光电子专业<br>2024年获得保研资格，去向待定'
   }
 ]
 </script>
