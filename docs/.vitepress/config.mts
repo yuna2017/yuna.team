@@ -26,6 +26,7 @@ export default defineConfig({
         items: [
           { text: '协会概况', link: '/about-us/' },
           { text: '加入我们', link: '/join-us' },
+          { text: '协会成员', link: '/about-us/members'}
         ]
       }
     ],
