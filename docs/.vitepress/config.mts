@@ -22,6 +22,7 @@ export default defineConfig({
     sidebar: [
       {
         text: '关于我们',
+        collapsed: true,
         items: [
           { text: '协会概况', link: '/about-us/' },
           { text: '加入我们', link: '/join-us' },
