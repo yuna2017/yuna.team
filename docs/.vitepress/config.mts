@@ -13,7 +13,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: '关于我们', link: '/about-us' },
+      { text: '关于我们', link: '/about-us/' },
       { text: '最新动态', link: '/placeholder' },
       { text: '生存指南', link: '/placeholder' },
       { text: '加入我们', link: '/join-us' }
@@ -23,8 +23,8 @@ export default defineConfig({
       {
         text: '关于我们',
         items: [
-          { text: '关于我们', link: '/about-us' },
-          { text: '加入我们', link: '/join-us' }
+          { text: '协会概况', link: '/about-us/' },
+          { text: '加入我们', link: '/join-us' },
         ]
       }
     ],
