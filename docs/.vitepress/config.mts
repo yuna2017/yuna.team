@@ -59,6 +59,14 @@ export default defineConfig({
         src: 'https://static.cloudflareinsights.com/beacon.min.js',
         "defer": ''
       }
+    ],
+    [
+      'link',
+      {
+        'rel': 'shortcut icon',
+        'type': 'image/svg',
+        'href': '/logo.svg'
+      }
     ]
   ]
 })
