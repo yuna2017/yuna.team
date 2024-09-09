@@ -43,10 +43,7 @@ export default defineConfig({
       },
       {
         text: '加入我们',
-        items: [
-          { text: "为什么要来网协？", link: '/join-us/why-us.html'},
-          { text: "如何加入", link: '/join-us/how-to.html'}
-        ]
+        link: '/join-us/how-to.html'
       }
     ],
 
