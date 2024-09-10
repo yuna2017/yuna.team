@@ -33,7 +33,15 @@ const members = [
     links: [
         { icon: 'github', link: 'https://github.com/255doesnotexist' }
     ]
-  }
+  },
+  {
+    avatar: 'https://github.com/miaooo0000OOOO.png',
+    name: 'Miaooo',
+    title: '运维部部长',
+    links: [
+        { icon: 'github', link: 'https://github.com/miaooo0000OOOO' }
+    ]
+  },
 ]
 </script>
 
