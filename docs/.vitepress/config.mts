@@ -18,7 +18,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: '关于我们', link: '/about-us/' },
       { text: '最新动态', link: '/placeholder' },
-      { text: '生存指南', link: '/placeholder' },
+      { text: '生存指南', link: 'https://my-bucket-j9e87kg-1304770054.cos-website.ap-beijing.myqcloud.com/' },
       { text: '加入我们', link: '/join-us/how-to.html' }
     ],
     externalLinkIcon: true,

@@ -17,7 +17,7 @@ hero:
       link: /about-us
     - theme: alt
       text: 加入我们
-      link: /join-us
+      link: /join-us/how-to.html
 
 features:
   - title: 多元
