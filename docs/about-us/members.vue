@@ -48,17 +48,39 @@ const secretariat = [
 
 ]
 
-const friends = [
+import { ref } from 'vue'
+
+const friends = ref([
   {
     avatar: 'https://github.com/255doesnotexist.png',
     name: '255',
-    desc: 'is it that weird not wanting a label',
+    desc: 'loading...', // placeholder
     title: '特邀成员',
     links: [
       { icon: 'github', link: 'https://github.com/255doesnotexist' }
     ]
   }
-]
+]);
+
+fetch(['https://v1.hitokoto.cn/?c=a', 'https://v1.hitokoto.cn/?c=d', 
+  'https://v1.hitokoto.cn/?c=k'][Math.random() * 2 | 0])
+  .then(response => response.json())
+  .then(data => {
+    const friendIndex = friends.value.findIndex(friend => friend.name === '255');
+    if (friendIndex !== -1) {
+      friends.value[friendIndex].desc = [
+      'is it that weird not wanting a label?',
+      'is it thawat wuwueird not wawanting a lawabel?',
+      data.from_who
+        ? `我没什么好说的。但是「${data.hitokoto}」${data.from}的${data.from_who}如是说。`
+        : `我不知道说点什么。但是「${data.hitokoto}」${data.from}这么说了。`
+      ][Math.random() * 3 | 0];
+    }
+  })
+  .catch(error => {
+    console.error('Error fetching hitokoto:', error);
+    friends[0].desc = '这里本就没什么一言。';
+  });
 </script>
 
 <template>
