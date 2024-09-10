@@ -97,7 +97,7 @@ const friends = ref([
     avatar: 'https://github.com/255doesnotexist.png',
     name: '255',
     desc: 'loading...', // placeholder
-    title: '特邀成员',
+    title: ['特邀成员', '特邀网络大王'][Math.random() * 1.01 | 0],
     links: [
       { icon: 'github', link: 'https://github.com/255doesnotexist' }
     ]
