@@ -95,6 +95,15 @@ const members: TeamMember[] = [
             }
         ],
         desc: '光电子专业<br>2024年获得保研资格，去向待定'
+    },
+    {
+        avatar: '/avatars/aji.jpg',
+        name: '阿吉',
+        title: '第六届运维部主席',
+        desc: '电子信息工程专业<br>2024年考研至中国民航大学',
+        links: [
+            { icon: 'github', link: 'https://github.com/aji-li' }
+        ]
     }
 ]
 </script>
