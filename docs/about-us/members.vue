@@ -77,6 +77,15 @@ const leaders: TeamMember[] = [
       { icon: 'github', link: 'https://github.com/TrisuyaN' }
     ]
   },
+  {
+    avatar: getAvatars('KAIRO'),
+    name: 'KAIRO',
+    desc: 'Ciallo～(∠・ω< )⌒★',
+    title: '组宣部主席',
+    links: [
+      getQQLink('2384062247')
+    ]
+  }
 ]
 
 function getAvatars(name: string): string {
