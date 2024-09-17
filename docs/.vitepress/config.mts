@@ -1,7 +1,7 @@
-import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   base: process.env.IS_GITHUB_PAGES ? '/yuna.team/' : '/',
   title: "燕山大学大学生网络信息协会",
   description: "The Official Site of the YUNA",
@@ -68,5 +68,12 @@ export default defineConfig({
         'href': '/logo.svg'
       }
     ]
-  ]
+  ],
+  mermaid: {
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+  },
+  // optionally set additional config for plugin itself with MermaidPluginConfig
+  mermaidPlugin: {
+    class: "mermaid", // set additional css classes for parent container 
+  },
 })
