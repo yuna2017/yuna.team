@@ -8,7 +8,7 @@ next: true
 ## 2025年招新公告
 
 > [!IMPORTANT]
-> 2025年燕山大学学生网络信息协会招新即将开始！
+> 2025年燕山大学学生网络信息协会招新笔试链接：[点击进入](https://teamyuna.feishu.cn/wiki/KrXcwO9WXizkZSkeRTUceeY7nTb?from=from_copylink)
 
 ### 招新时间
 
