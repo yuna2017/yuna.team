@@ -1,3 +1,9 @@
+---
+prev: true
+next: true
+---
+
+
 # 运维部
 
 运维部（Network Operation & Maintenance Department），作为网络信息协会的技术部门之一，肩负着维护校园网络稳定和正版化推行的重任，为协会提供全方位的软硬件技术支持。

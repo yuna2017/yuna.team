@@ -28,7 +28,12 @@ export default withMermaid({
         // collapsed: false,
         items: [
           { text: '协会概况', link: '/about-us/' },
-          { text: '协会成员', link: '/about-us/members'},
+          { text: '协会成员',
+            items: [
+              { text: '应届成员', link: '/about-us/members/current-members.html'},
+              { text: '往届成员', link: '/about-us/members/old-members.html'},
+            ]
+          },
           { text: '部门设置',
             items: [
               { text: "开发部", link: '/about-us/dept/dev.html'},

@@ -146,14 +146,10 @@ fetch(['https://v1.hitokoto.cn/?c=a', 'https://v1.hitokoto.cn/?c=d',
   <VPTeamPage>
     <VPTeamPageTitle>
       <template #title>
-        协会成员
+        应届成员
       </template>
       <template #lead>
         第{{ data.session || '九' }}届燕山大学大学生网络信息协会
-        <br>
-        <a href="/about-us/old-members" style="color: var(--vp-c-brand-1); text-decoration: none; font-size: 0.9em;">
-          查看往届成员 →
-        </a>
       </template>
     </VPTeamPageTitle>
     <VPTeamPageSection>

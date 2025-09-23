@@ -124,10 +124,6 @@ function getQQLink(uin: string) {
       </template>
       <template #lead>
         第{{ data.session || '八' }}届燕山大学大学生网络信息协会
-        <br>
-        <a href="/about-us/members" style="color: var(--vp-c-brand-1); text-decoration: none; font-size: 0.9em;">
-          ← 返回现任成员
-        </a>
       </template>
     </VPTeamPageTitle>
     <VPTeamPageSection v-if="leaders.length > 0">
