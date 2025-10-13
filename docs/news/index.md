@@ -29,11 +29,11 @@ next: true
 #### 附件
 
 <!-- markdownlint-disable-next-line MD032 MD029 -->
-1. 授课大纲（内含安装Git、VSCode和注册Github账户的简短教程、要求和官方文档链接。）
+- 授课大纲（内含安装Git、VSCode和注册Github账户的简短教程、要求和官方文档链接。）
 <!-- markdownlint-disable-next-line MD032 -->
-- <a href="/activates/doc.md" download>下载授课大纲（.md）</a>
+<a href="/activates/doc.md" download>下载授课大纲（.md）</a>
 
-1. 样例提交图片
+- 样例提交图片
 
-- ![git](/activates/git.png)
-- ![vscode](/activates/VSC.png)
+![git](/activates/git.png)
+![vscode](/activates/VSC.png)
