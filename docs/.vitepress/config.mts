@@ -18,6 +18,7 @@ export default withMermaid({
       { text: 'Home', link: '/' },
       { text: '关于我们', link: '/about-us/' },
       { text: '最新动态', link: '/news/' },
+      { text: '授课链接', link: '/lessons/' },
       { text: '生存指南', link: 'https://docs.yuna.asia/' },
       { text: '加入我们', link: '/join-us/how-to.html' }
     ],
@@ -49,6 +50,16 @@ export default withMermaid({
       {
         text: '最新动态',
         link: '/news/'
+      },
+      {
+        text: '授课链接',
+        items: [
+          { text: '开发部', link: '/lessons/dev.html' },
+          { text: '网络安全部', link: '/lessons/cybersec.html' },
+          { text: '运维部', link: '/lessons/maint.html' },
+          { text: '组宣部', link: '/lessons/pr.html' },
+          { text: '秘书处', link: '/lessons/office.html' },
+        ]
       },
       {
         text: '加入我们',
