@@ -9,3 +9,39 @@
 
   --vp-sidebar-width: 308px;
 }
+
+/* Button style for inline links */
+.link-button {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.25;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+.link-button:hover {
+  background: var(--vp-c-brand-2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+.link-button:active {
+  background: var(--vp-c-brand-3);
+}
+.link-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 122, 204, 0.25);
+}
+
+/* Increase specificity to override VitePress default link color */
+.vp-doc a.link-button,
+.vp-doc .link-button {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.vp-doc a.link-button:visited {
+  color: #fff !important;
+}

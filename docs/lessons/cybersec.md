@@ -11,8 +11,9 @@ next: true
 ## 最近一次授课
 
 - 时间：2025/10/18
-- 录播视频：待公布
-- 授课资料：<a href="/activates/doc.md" download>下载授课大纲（.md）</a>
+- 主题：git/github的使用
+- 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV1FYsAzREZZ/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
+- 授课资料：<a class="link-button" href="https://yuna2017.lanzout.com/ik3JV38rz44h" target="_blank" rel="noopener noreferrer">点击下载</a>
 
 ## 历次授课
 
