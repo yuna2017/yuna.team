@@ -380,7 +380,7 @@ HTML<br>
 CSS<br>
 JavaScript</div>
  
-<div id="content" style="background-color:#c7cccf;height:200px;width:400px;float:left;">
+<div id="content" style="background-color:#c7cccf;height:200px;width:400px;float:left;color:black;">
 内容在这里</div>
 ```
 
@@ -397,6 +397,7 @@ JavaScript</div>
  
 <div id="content" style="background-color:#c7cccf;height:200px;width:400px;float:left;color:black;">
 内容在这里</div>
+</div>
 
 
 
@@ -454,6 +455,7 @@ JavaScript</div>
       </ul>
     </nav>
     <footer>&copy; 2025 保留所有权利</footer>  
+  </header>
 
 <br/>
 

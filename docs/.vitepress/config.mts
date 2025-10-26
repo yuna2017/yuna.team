@@ -6,6 +6,7 @@ export default withMermaid({
   title: "燕山大学大学生网络信息协会",
   description: "The Official Site of the YUNA",
   lastUpdated: true,
+  srcExclude: ['public/activates/dev/开发第一课：HTML.md'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
