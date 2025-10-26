@@ -10,11 +10,14 @@ next: true
 
 ## 最近一次授课
 
+- 时间：2025/10/26
+- 主题：PS基础
+- 录播视频：**由于部门忘记开启会议录制，本次授课暂无回放。**
+- 授课资料：暂无。
+
+## 历次授课
+
 - 时间：2025/10/18
 - 主题：设计与排版基本原则
 - 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV1jcsAz2ENv/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：<a class="link-button" href="https://yuna2017.lanzout.com/imr3J38rz4ng" target="_blank" rel="noopener noreferrer">点击下载</a>
-
-## 历次授课
-
-暂无

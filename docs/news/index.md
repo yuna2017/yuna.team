@@ -61,7 +61,7 @@ Linux基础：命令行与文件操作
 #### 附件
 
 <a href="/activates/ops/INSTALL.md" download>下载课前准备（.md）</a>  
-<a href="/docs/public/activates/ops/第一课：命令行与文件操作.pdf" download>下载讲义（.pdf）</a>
+<a href="/activates/ops/第一课：命令行与文件操作.pdf" download>下载讲义（.pdf）</a>
 
 ### 组宣、秘书处授课
 
