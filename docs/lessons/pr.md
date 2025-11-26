@@ -11,8 +11,8 @@ next: true
 ## 最近一次授课
 
 - 时间：2025/11/15
-- 主题：PS基础功能介绍和简单抠图、拼图以及图形处理
-- 录播视频：<a class="link-button" href="https://bilibili.com/video/BV1R9ygBwEhu" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
+- 主题：PS基础功能
+- 录播视频：**本周不设回放。**
 - 授课资料：暂无。
 
 ## 历次授课
@@ -27,4 +27,11 @@ next: true
 - 时间：2025/10/26
 - 主题：PS基础
 - 录播视频：**由于部门忘记开启会议录制，本次授课暂无回放。**
+- 授课资料：暂无。
+
+---
+
+- 时间：2025/11/15
+- 主题：PS基础功能介绍和简单抠图、拼图以及图形处理
+- 录播视频：<a class="link-button" href="https://bilibili.com/video/BV1R9ygBwEhu" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：暂无。
