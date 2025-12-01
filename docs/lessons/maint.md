@@ -10,9 +10,9 @@ next: true
 
 ## 最近一次授课
 
-- 时间：2025/11/22
-- 主题：Linux基础&ssh，scp的使用
-- 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV1k8UkBkE88/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
+- 时间：2025/11/29
+- 主题：linux启动流程、systemd与anaconda&uv
+- 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV13DSqBmEcU/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：暂无
 
 ## 历次授课
@@ -35,3 +35,10 @@ next: true
 - 主题：Docker的基础使用
 - 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV1UWCmBWE9t/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：<a class="link-button" href="/activates/ops/第二课：Docker.pdf" download rel="noopener noreferrer">点击下载</a>
+
+---
+
+- 时间：2025/11/22
+- 主题：Linux基础&ssh，scp的使用
+- 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV1k8UkBkE88/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
+- 授课资料：暂无
