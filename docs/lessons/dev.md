@@ -11,7 +11,7 @@ next: true
 ## 最近一次授课
 
 - 时间：2025/11/29
-- 主题：CSS基础
+- 主题：Vue基础
 - 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV1QNS2BuEHM/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：暂无
 
