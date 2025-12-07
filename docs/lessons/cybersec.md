@@ -10,9 +10,9 @@ next: true
 
 ## 最近一次授课
 
-- 时间：2025/11/22
-- 主题：逆向工程
-- 录制视频：<a class="link-button" href="https://www.bilibili.com/video/BV1qfUXBYEyh/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
+- 时间：2025/12/6
+- 主题：MISC杂项
+- 录制视频：<a class="link-button" href="https://www.bilibili.com/video/BV1992RBoEJ8/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：无。
 
 ## 历次授课
@@ -41,4 +41,11 @@ next: true
 - 时间：2025/11/15
 - 主题：CTFweb内容的SQL与木马初探
 - 录制视频：<a class="link-button" href="https://www.bilibili.com/video/BV176CRBdEAa/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
+- 授课资料：无。
+
+---
+
+- 时间：2025/11/22
+- 主题：逆向工程
+- 录制视频：<a class="link-button" href="https://www.bilibili.com/video/BV1qfUXBYEyh/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：无。

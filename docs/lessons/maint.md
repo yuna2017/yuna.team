@@ -10,9 +10,9 @@ next: true
 
 ## 最近一次授课
 
-- 时间：2025/11/29
-- 主题：linux启动流程、systemd与anaconda&uv
-- 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV13DSqBmEcU/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
+- 时间：2025/12/7
+- 主题：ASC简介，超算集群架构，环境变量与bashrc
+- 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV1do2fB3E3K/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：暂无
 
 ## 历次授课
@@ -41,4 +41,11 @@ next: true
 - 时间：2025/11/22
 - 主题：Linux基础&ssh，scp的使用
 - 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV1k8UkBkE88/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
+- 授课资料：暂无
+
+---
+
+- 时间：2025/11/29
+- 主题：linux启动流程、systemd与anaconda&uv
+- 录播视频：<a class="link-button" href="https://www.bilibili.com/video/BV13DSqBmEcU/" target="_blank" rel="noopener noreferrer" aria-label="在B站观看录播">在B站观看</a>
 - 授课资料：暂无
